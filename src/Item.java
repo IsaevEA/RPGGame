@@ -6,6 +6,8 @@ public class Item {
     private int using;
     private int effect;
     private int weight;
+    public static int a;
+    public static int b;
 
     public String getName() {
         return name;
@@ -71,5 +73,7 @@ public class Item {
         this.using = using;
         this.effect = effect;
         this.weight = weight;
+        a+=price;
+        b+=using;
     }
 }
